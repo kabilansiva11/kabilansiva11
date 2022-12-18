@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -11,16 +10,17 @@
         <title>APP DEVELOPMENT</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="main.css">
         
     </head>
     <body>
-        <label id="ks">KS</label><label id="company">company</label>
-        
-        <a href="register.html"><label id="reg"type="submit">Register</label></a>
-        <a href="login.html"><label id="reg" type="submit">Login</label></a>   
-        <a href="MyProfile.html"><label id="reg"type="submit">MyProfile</label></a>
-        <a href="index.html"><label id="reg" type="submit">Home</label></a>
+        <div class="nav">
+        <label id="ks">KS<label id="company">company</label></label>
+        <a href="login.html"><label id="reg" type="submit">&nbsp;&nbsp;Login&nbsp;&nbsp;</label></a>   
+        <a href="register.html"><label id="reg"type="submit">&nbsp;&nbsp;Register</label></a>
+        <a href="MyProfile.html"><label id="reg"type="submit">&nbsp;&nbsp;MyProfile</label></a>
+        <a href="index.html"><label id="reg" type="submit">&nbsp;&nbsp;Home</label></a>       
+        </div>
         <article>
         <div class="center">
             <h3>
@@ -28,7 +28,7 @@
             </h3>
             
             <article class="profile">
-                <img src="image\ks.jpg">
+                <img src="sk.jpg">
                 <div id="text">
                     <h3>MD : KabilanSiva</h3>
                      <h3>Profession : Founder Of KS Groups</h3>
@@ -40,9 +40,10 @@
                 </div>
             </article>
         </article>&nbsp;&nbsp;&nbsp;&nbsp;
-        <article id="addr3">
-            <h1>Address</h1><br>
-            <h3><br><br>
+        <div class="msk">
+        <article class="addr3">
+            <h1>Address</h1>
+            <h3>
                 KS web development<br>
                 KS saalai,<br>
                 Anna Nagar,<br>
@@ -51,7 +52,7 @@
                 India.
             </h3>
         </article>
-        <article id="addr4">
+        <article class="addr4">
             <h1>Links</h1>
           
            <h3><a href="index.html"><label id="link" type="submit">Home</label></a><br>
@@ -59,9 +60,9 @@
             <a href="MyProfile.html"><label id="link"type="submit">Employee profile</label></a><br>
             <a href="register.html"><label id="link"type="submit">New Register</label></a></h3> 
         </article>
-        <article id="addr5">
-            <h1>Contact Us</h1><br>
-            <h3><br><br>
+        <article class="addr5">
+            <h1>Contact Us</h1>
+            <h3>
                 Kabilan Siva<br>
                 9988776655,<br>
                 kab5453@gmail.com,<br>
@@ -70,11 +71,11 @@
             </h3>
         </article>
         
-        
+    </div>
         <footer>
             <div class="footer">
              <h2>
-                @copyrights.KS2022
+                &copy;copyrights.KS2022
              </h2>
             </div>
          
